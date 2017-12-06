@@ -1,4 +1,4 @@
-package sample.plugin.impl;
+package sample.plugin1.impl;
 
 import javafx.scene.control.Tab;
 import javafx.scene.web.WebEngine;
@@ -29,7 +29,7 @@ public class WebViewPlugin implements Plugin {
 
         WebView browser = new WebView();
         WebEngine webEngine = browser.getEngine();
-        webEngine.load("https://cn.bing.com/");
+        webEngine.load("https://www.zhihu.com/people/li-jia-ming-70/posts");
 
         tab.setContent(browser);
         return tab;

@@ -4,7 +4,7 @@
 
 ---
 
-SPI模式是java不修改源码进行扩展的方式之一。客户端只和某个接口交互，扩展时只需要将实现了该接口的Service Provider添加到classpath中，客户端即可自动发现新代码并使用。
+SPI(Service Provider Interfaces)模式是java不修改源码进行扩展的方式之一。客户端只和某个接口交互，扩展时只需要将实现了该接口的Service Provider添加到classpath中，客户端即可自动发现新代码并使用。
 
 # 四个角色
 
